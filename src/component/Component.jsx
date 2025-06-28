@@ -4,6 +4,7 @@ import Usefetch from "./Usefetch";
 const Component = () => {
     // accessing data from Usefetch
 
+    // using fakestoreapi
     const { data } = Usefetch('https://fakestoreapi.com/products');
 
     return (
